@@ -13,6 +13,8 @@ public class App
     {
     	MSG.add("Ciao!");
     	MSG.add("Ciao Mondo!");
+    	MSG.add("Hello!");
+    	MSG.add("Hello World!");
     }
 
 	public static void main( String[] args )
