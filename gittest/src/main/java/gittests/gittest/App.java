@@ -6,12 +6,14 @@ package gittests.gittest;
  */
 public class App 
 {
-    public static void main( String[] args )
+    private static final String HELLO_WORLD = "Ciao Mondo!";
+
+	public static void main( String[] args )
     {
         System.out.println( getMsg() );
     }
 
 	private static String getMsg() {
-		return "Hello World!";
+		return HELLO_WORLD;
 	}
 }
