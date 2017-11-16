@@ -15,6 +15,7 @@ public class App
     	MSG.add("Ciao Mondo!");
     	MSG.add("Hello!");
     	MSG.add("Hello World!");
+	MSG.add("Ciao Bello!");
     }
 
 	public static void main( String[] args )
