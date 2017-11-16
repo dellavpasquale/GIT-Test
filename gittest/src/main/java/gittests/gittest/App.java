@@ -1,13 +1,28 @@
 package gittests.gittest;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Hello world!
  *
  */
 public class App 
 {
-    public static void main( String[] args )
+    private static final List<String> MSG = new ArrayList<String>();
     {
-        System.out.println( "Hello World!" );
+    	MSG.add("Ciao!");
+    	MSG.add("Ciao Mondo!");
+    	MSG.add("Hello!");
+    	MSG.add("Hello World!");
     }
+
+	public static void main( String[] args )
+    {
+        System.out.println( getMsg() );
+    }
+
+	private static String getMsg() {
+		return String.valueOf(Math.round(Math.random() * MSG.size()));
+	}
 }
