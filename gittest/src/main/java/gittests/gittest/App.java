@@ -6,7 +6,7 @@ package gittests.gittest;
  */
 public class App 
 {
-    private static final String HELLO_WORLD = "Hello World!";
+    private static final String HELLO_WORLD = "Ciao Mondo!";
 
 	public static void main( String[] args )
     {
