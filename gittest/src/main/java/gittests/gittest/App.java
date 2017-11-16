@@ -1,12 +1,19 @@
 package gittests.gittest;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Hello world!
  *
  */
 public class App 
 {
-    private static final String HELLO_WORLD = "Ciao Mondo!";
+    private static final List<String> MSG = new ArrayList<String>();
+    {
+    	MSG.add("Ciao!");
+    	MSG.add("Ciao Mondo!");
+    }
 
 	public static void main( String[] args )
     {
@@ -14,6 +21,6 @@ public class App
     }
 
 	private static String getMsg() {
-		return HELLO_WORLD;
+		return String.valueOf(Math.round(Math.random() * MSG.size()));
 	}
 }
